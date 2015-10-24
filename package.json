@@ -30,6 +30,7 @@
     "babel-jest": "^5.3.0",
     "babelify": "^6.4.0",
     "browserify": "^11.2.0",
+    "compression": "^1.6.0",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-cssmin": "^0.1.6",

@@ -7,7 +7,7 @@ const app = require('../app');
 const io = require('../io').io;
 const debug = require('debug')('reti-chess:server');
 const port = process.env.PORT || '3000';
-const ip = process.env.IP || '127.0.0.1';
+const ip = process.env.IP || '188.166.58.199';
 
 app.set('ip', ip);
 app.set('port', port);

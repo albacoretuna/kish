@@ -57,7 +57,7 @@ var browserifyTask = function() {
       appBundler.bundle()
         .on('error', gutil.log)
         .pipe(source(bundle))
-        .pipe(gulpif(!IS_DEVELOPMENT, streamify(uglify())))
+        .pipe(streamify(uglify()))
         .pipe(gulp.dest(IS_DEVELOPMENT ? './build/js/' : './dist/js/'))
         .pipe(notify(function() {
           gutil.log(gutil.colors.green('BROWSERIFY(' + bundle +
@@ -84,6 +84,7 @@ var browserifyTask = function() {
     vendorBundler.bundle()
       .on('error', gutil.log)
       .pipe(source('vendor.js'))
+      .pipe(streamify(uglify()))
       .pipe(gulp.dest('./build/js/'))
       .pipe(notify(function() {
         gutil.log(gutil.colors.green(
