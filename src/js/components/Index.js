@@ -5,7 +5,7 @@ import io from '../io';
 
 
 const Index = React.createClass({
-  
+
   propTypes: {
     io: React.PropTypes.object.isRequired
   },
@@ -54,7 +54,7 @@ const Index = React.createClass({
             inc={this.state.inc}
             onChangeForm={this._onChangeForm}
             createGame={this._createGame} />
-            
+
           <p id="game-status">
             {this.state.hasExpired ?
               'Game link has expired, generate a new one'
@@ -63,15 +63,16 @@ const Index = React.createClass({
             :null}
           </p>
         </div>
-
+        <div>
         <p>
           Click the button to create a game. Send the link to your friend.
-          Once the link is opened your friend‘s browser, game should begin 
+          Once the link is opened your friend‘s browser, game should begin
           shortly. Colors are picked randomly by computer.
         </p>
         <p>
           <a href="/about" className="alpha">Read more about Reti Chess</a>
         </p>
+        </div>
       </div>
     );
   },

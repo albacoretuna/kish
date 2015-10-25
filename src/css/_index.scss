@@ -11,8 +11,8 @@
   fieldset {
     border: 0;
     text-align: right;
-    margin-bottom: 1em;
-    width: 80%;
+    margin: 3em auto;
+    width: 100%;
 
     input {
       margin-left: 1em;
@@ -43,7 +43,7 @@
 }
 
 #game-link {
-  width: 80%;
+  width: 100%;
   height: 50px;
   line-height: 50px;
   font-size: 1.125rem;
@@ -54,7 +54,6 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   background: $dark-purple;
   padding: 0 1em;
-  float: left;
   border-radius: 2px;
   box-shadow: inset 0 -2px darken($dark-purple, 8%);
 
