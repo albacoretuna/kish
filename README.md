@@ -28,5 +28,5 @@ npm start
 License
 -------
 
+Kish is based on [Reti Chess](https://github.com/romanmatiasko/reti-chess)
 Available under [the MIT License (MIT)](./LICENSE.md).
-This is a fork of Reti Chess
