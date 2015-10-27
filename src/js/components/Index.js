@@ -45,7 +45,7 @@ const Index = React.createClass({
              width="122"
              height="122"
              className="knight" />
-        <h1>Reti Chess</h1>
+        <h1>Kish Chess</h1>
 
         <div id="create-game">
           <CreateGameForm
@@ -70,7 +70,7 @@ const Index = React.createClass({
           shortly. Colors are picked randomly by computer.
         </p>
         <p>
-          <a href="/about" className="alpha">Read more about Reti Chess</a>
+          <a href="/about" className="alpha">Read more about Kish Chess</a>
         </p>
         </div>
       </div>

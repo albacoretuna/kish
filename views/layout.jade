@@ -2,12 +2,12 @@ doctype html
 html(lang='en')
   head
     - if (typeof(title) !== 'undefined')
-      title #{title} | Reti Chess
+      title #{title} | Kish Chess
     - else
-      title Reti Chess
+      title Kish Chess
     meta(charset='utf-8')
     meta(name='robots', content='index, follow')
-    meta(itemprop='name=Reti Chess')
+    meta(itemprop='name=Kish Chess')
     meta(author='Roman Matiasko, Omid Hezaveh')
     meta(name='description', content='A lightweight real-time chess app built in Node, Express, Socket.IO, React, Flux and Immutable.')
     meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -21,10 +21,10 @@ html(lang='en')
 
     footer
       #footer.clearfix
-        p.center 2015&nbsp;&nbsp;&ndash;&nbsp;&nbsp;Reti Chess is distributed under
-          a(href='http://github.com/romanmatiasko/reti-chess/blob/master/LICENSE.md') the MIT License
+        p.center 2015&nbsp;&nbsp;&ndash;&nbsp;&nbsp;Kish Chess is distributed under
+          a(href='https://github.com/omidfi/kish/blob/master/LICENSE.md') the MIT License
           | &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
-          a(href='http://github.com/romanmatiasko/reti-chess') Github
+          a(href='https://github.com/omidfi/kish') Github
 
     - if (process.env.NODE_ENV === 'development')
       script(src='/js/vendor.js')

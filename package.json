@@ -1,5 +1,5 @@
 {
-  "name": "retichess",
+  "name": "kishchess",
   "version": "0.4.1",
   "scripts": {
     "start": "NODE_ENV=development node ./bin/www",
